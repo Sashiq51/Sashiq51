@@ -1,0 +1,17 @@
+
+Woo Commerce 
+Woo Commerce Template files 
+Payment  Gateway / Shipping Method 
+PHP
+AJAX 
+SQL 
+enqueue and dequeue
+
+$searchdata='';
+if($_GET['title']!=''){
+    $searchData=$_GET['title'];
+}
+<div class="container">
+    <form method='get'>
+        <input type="text" placeholder="Search By Name"  name="title" style= width: 250px;  style= padding: 10px ;/>
+        <input type="Submit" value="Search"  name=""   style= padding: 12px ;/> 
